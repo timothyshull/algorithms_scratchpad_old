@@ -1,0 +1,13 @@
+project(ch_18)
+
+add_executable(18_1 18_1.cpp)
+add_executable(18_2 18_2.cpp)
+add_executable(18_3 18_3.cpp)
+add_executable(18_4 18_4.cpp)
+add_executable(18_5 18_5.cpp)
+add_executable(18_6 18_6.cpp)
+add_executable(18_7 18_7.cpp)
+add_executable(18_8 18_8.cpp)
+add_executable(18_9 18_9.cpp)
+add_executable(18_10 18_10.cpp)
+add_executable(18_11 18_11.cpp)

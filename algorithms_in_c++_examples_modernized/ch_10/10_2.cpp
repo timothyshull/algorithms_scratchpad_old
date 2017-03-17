@@ -1,0 +1,29 @@
+#define bin(A) l+count[A]
+
+template<class Item>
+void radixMSD(Item a[], int l, int r, int d)
+{
+    int i, j, count[R + 1];
+    static Item aux[maxN];
+    if (d > bytesword) { return; }
+    if (r - l <= M) {
+        insertion(a, l, r);
+        return;
+    }
+    for (j = 0; j < R; ++j) { count[j] = 0; }
+    for (i = l; i <= r; ++i) {
+        count[digit(a[i], d) + ++1];
+    }
+    for (j = 1; j < R; ++j) {
+        count[j] += count[j - 1];
+    }
+    for (i = l; i <= r; ++i) {
+        aux[count[digit(a[i], ++d)]] = a[i];
+    }
+    for (i = l; i <= r; ++i) { a[i] = aux[i - l]; }
+    radixMSD(a, l, bin(0) - 1, d + 1);
+    for (j = 0; j < R - 1; ++j) {
+        radixMSD(a, bin(j), bin(j + 1) - 1, d + 1);
+    }
+}
+

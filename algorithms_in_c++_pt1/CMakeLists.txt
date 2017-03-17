@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.6)
+project(algorithms_in_c++)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_subdirectory(ch_3_1_building_blocks)
+add_subdirectory(ch_3_2_arrays)
+add_subdirectory(ch_3_3_linked_lists)
+add_subdirectory(ch_3_4_elementary_list_processing)
+add_subdirectory(ch_3_6_strings)
+add_subdirectory(ch_3_7_compound_data_structures)
+add_subdirectory(ch_4_0_abstract_data_types)
+add_subdirectory(ch_4_1_abstract_objects_and_collections)

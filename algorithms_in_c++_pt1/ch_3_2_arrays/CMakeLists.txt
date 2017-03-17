@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.6)
+project(ch_3_2_arrays)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(3_5_sieve_of_eratosthenes 3_5_sieve_of_eratosthenes.cpp)
+add_executable(3_6_dynamic_memory_array 3_6_dynamic_memory_array.cpp)
+add_executable(3_7_coin_flipping 3_7_coin_flipping.cpp)
+add_executable(3_8_closest_point_computation 3_8_closest_point_computation.cpp Point.h Point.cpp)
+
+add_executable(3_10 3_10.cpp)
+add_executable(3_11 3_11.cpp)
+add_executable(3_12 3_12.cpp)
+add_executable(3_13 3_13.cpp)
+add_executable(3_14 3_14.cpp)
+add_executable(3_15 3_15.cpp)
+add_executable(3_16 3_16.cpp)
+add_executable(3_17 3_17.cpp)
+add_executable(3_18 3_18.cpp)
+add_executable(3_19 3_19.cpp)
+add_executable(3_20 3_20.cpp)
+add_executable(3_21 3_21.cpp)
+add_executable(3_22 3_22.cpp)

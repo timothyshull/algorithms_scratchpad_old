@@ -1,0 +1,10 @@
+project(ch_8)
+
+add_executable(8_1 8_1.cpp)
+add_executable(8_2 8_2.cpp)
+add_executable(8_3 8_3.cpp)
+add_executable(8_4 8_4.cpp)
+add_executable(8_5 8_5.cpp)
+add_executable(8_6 8_6.cpp)
+add_executable(8_7 8_7.cpp)
+add_executable(8_8 8_8.cpp)

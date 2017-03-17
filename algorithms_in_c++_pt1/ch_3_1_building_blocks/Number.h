@@ -1,0 +1,6 @@
+#ifndef CH_3_1_BUILDING_BLOCKS_NUMBER_H
+#define CH_3_1_BUILDING_BLOCKS_NUMBER_H
+
+typedef int Number;
+
+#endif //CH_3_1_BUILDING_BLOCKS_NUMBER_H

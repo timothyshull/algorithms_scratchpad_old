@@ -1,0 +1,12 @@
+project(ch_20)
+
+add_executable(20_1 20_1.cpp)
+add_executable(20_2 20_2.cpp)
+add_executable(20_3 20_3.cpp)
+add_executable(20_4 20_4.cpp)
+add_executable(20_5 20_5.cpp)
+add_executable(20_6 20_6.cpp)
+add_executable(20_7 20_7.cpp)
+add_executable(20_8 20_8.cpp)
+add_executable(20_9 20_9.cpp)
+add_executable(20_10 20_10.cpp)

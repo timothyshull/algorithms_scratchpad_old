@@ -1,0 +1,11 @@
+project(ch_21)
+
+add_executable(21_1 21_1.cpp)
+add_executable(21_2 21_2.cpp)
+add_executable(21_3 21_3.cpp)
+add_executable(21_4 21_4.cpp)
+add_executable(21_5 21_5.cpp)
+add_executable(21_6 21_6.cpp)
+add_executable(21_7 21_7.cpp)
+add_executable(21_8 21_8.cpp)
+add_executable(21_9 21_9.cpp)

@@ -1,0 +1,12 @@
+project(ch_13)
+
+add_executable(13_1 13_1.cpp)
+add_executable(13_2 13_2.cpp)
+add_executable(13_3 13_3.cpp)
+add_executable(13_4 13_4.cpp)
+add_executable(13_5 13_5.cpp)
+add_executable(13_6 13_6.cpp)
+add_executable(13_7 13_7.cpp)
+add_executable(13_8 13_8.cpp)
+add_executable(13_9 13_9.cpp)
+add_executable(13_10 13_10.cpp)

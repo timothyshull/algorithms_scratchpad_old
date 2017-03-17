@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.6)
+project(ch_3_4_elementary_list_processing)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(3_10_list_reversal 3_10_list_reversal.cpp list.h)
+add_executable(3_11_list_insertion_sort 3_11_list_insertion_sort.cpp list.h)
+add_executable(3_13_list_allocation_josephus 3_13_list_allocation_josephus.cpp list.h)
+
+add_executable(3_33 3_33.cpp)
+add_executable(3_34 3_34.cpp)
+add_executable(3_35 3_35.cpp)
+add_executable(3_36 3_36.cpp)
+add_executable(3_37 3_37.cpp)
+add_executable(3_38 3_38.cpp)
+add_executable(3_39 3_39.cpp)
+add_executable(3_40 3_40.cpp)
+add_executable(3_41 3_41.cpp)
+add_executable(3_42 3_42.cpp)
+add_executable(3_43 3_43.cpp)
+add_executable(3_44 3_44.cpp)
+add_executable(3_45 3_45.cpp)

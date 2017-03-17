@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.6)
+project(ch_3_1_building_blocks)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(3_1_function_definition 3_1_function_definition.cpp)
+add_executable(3_2_types_of_numbers 3_2_types_of_numbers.cpp Number.h)
+add_executable(3_3_point_data_type_interface Point.cpp Point.h)
+add_executable(3_1 3_1.cpp)
+add_executable(3_2 3_2.cpp)
+add_executable(3_3 3_3.cpp)
+add_executable(3_4 3_4.cpp)
+add_executable(3_5 3_5.cpp)
+# add_executable(3_6 3_6.h)
+add_executable(3_7 3_7.cpp)
+add_executable(3_8 3_8.cpp)
+add_executable(3_9 3_9.cpp)

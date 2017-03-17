@@ -1,0 +1,10 @@
+project(ch_16)
+
+add_executable(16_1 16_1.cpp)
+add_executable(16_2 16_2.cpp)
+add_executable(16_3 16_3.cpp)
+add_executable(16_4 16_4.cpp)
+add_executable(16_5 16_5.cpp)
+add_executable(16_6 16_6.cpp)
+add_executable(16_7 16_7.cpp)
+add_executable(16_8 16_8.cpp)
